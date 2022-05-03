@@ -1,0 +1,8 @@
+.warning-alert {
+    background-color: red;
+    color: white;
+    padding: 16px;
+    margin-bottom: 8px;
+    width: 250px;
+    border-radius: 8px;
+}
