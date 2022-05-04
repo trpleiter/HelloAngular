@@ -1,0 +1,10 @@
+<input type="text" class="form-control" [(ngModel)]="username" />
+<button
+  class="btn btn-primary"
+  [disabled]="!username"
+  (click)="onSubmitUsername()"
+>
+  Submit username
+</button>
+<p>{{ username }}</p>
+<p>{{ usernameSubmitStatus }}</p>
